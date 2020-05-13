@@ -7,6 +7,11 @@
 		<Item Name="register_param.ctl" Type="VI" URL="../register_param.ctl"/>
 	</Item>
 	<Item Name="Library" Type="Folder">
+		<Item Name="Example" Type="Folder">
+			<Item Name="Example_Multiple.vi" Type="VI" URL="../Example_Multiple.vi"/>
+			<Item Name="Example_Single.vi" Type="VI" URL="../Example_Single.vi"/>
+			<Item Name="statistic_indicator.ctl" Type="VI" URL="../statistic_indicator.ctl"/>
+		</Item>
 		<Item Name="NI Modbus" Type="Folder">
 			<Item Name="MB CRC-16.vi" Type="VI" URL="../NI Modbus.llb/MB CRC-16.vi"/>
 			<Item Name="MB Decode Data.vi" Type="VI" URL="../NI Modbus.llb/MB Decode Data.vi"/>
@@ -94,7 +99,6 @@
 			<Item Name="MB Slave Write Input Registers (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Slave Write Input Registers (poly).vi"/>
 			<Item Name="MB Update Registers.vi" Type="VI" URL="../NI Modbus.llb/MB Update Registers.vi"/>
 		</Item>
-		<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
 		<Item Name="LXM32_Close.vi" Type="VI" URL="../LXM32_Close.vi"/>
 		<Item Name="LXM32_Init.vi" Type="VI" URL="../LXM32_Init.vi"/>
 		<Item Name="LXM32_Read.vi" Type="VI" URL="../LXM32_Read.vi"/>
